@@ -1,4 +1,5 @@
-CinePlusApp.
+##CinePlusApp.
+
 <u>1. Caso elegido y alcance</u>
 
   El proyecto elegido corresponde a CinePlus, una aplicación tipo streaming enfocada en la visualización y gestión de contenido audiovisual.
