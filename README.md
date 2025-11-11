@@ -1,13 +1,13 @@
 # CinePlusApp
 
-## 1. Caso elegido y alcance
+**1. Caso elegido y alcance**
 **Caso:** CinePlus  
 **Alcance EP3:** Diseño/UI, validaciones, navegación, estado, persistencia y recursos nativos.
 
-## 2. Requisitos y ejecución
+**2. Requisitos y ejecución**
 **Se usó:** Kotlin, Android Studio, Jetpack Compose, Material 3, ViewModel, Navigation Component.
 
-### Instrucciones:
+**Instrucciones:**
 1. Descarga el repositorio desde GitHub.  
 2. Abre el proyecto en Android Studio.  
 3. Sincroniza Gradle y espera que la configuración finalice.  
@@ -15,7 +15,7 @@
 **Para la ejecución:**  
 Selecciona el perfil "app" y ejecuta en un emulador Android.
 
-## 3. Arquitectura y flujo
+**3. Arquitectura y flujo**
 **Estructura de carpetas principales:**  
 • ui/screens → pantallas principales (Login, Perfil, Registro, Inicio)  
 • viewmodel → lógica del login y gestión del estado  
