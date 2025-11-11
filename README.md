@@ -8,25 +8,22 @@ En esta proyecto se trabajó principalmente en el diseño/UI, las validaciones d
 
 Para el desarrollo se utilizaron las siguientes tecnologías y librerías:
 
-**Kotlin como lenguaje principal.
+-Kotlin como lenguaje principal.
 
-**Android Studio como entorno de desarrollo.
+-Android Studio como entorno de desarrollo.
 
-Jetpack Compose y Material 3 para la interfaz de usuario.
+-Jetpack Compose y Material 3 para la interfaz de usuario.
 
-ViewModel para el manejo de estado.
+-ViewModel para el manejo de estado.
 
-Navigation Component para la navegación entre pantallas.
+-Navigation Component para la navegación entre pantallas.
 
 Pasos para ejecutar el proyecto:
 
-Descargar el repositorio desde GitHub.
-
-Abrir el proyecto en Android Studio.
-
-Sincronizar Gradle y esperar a que finalice la configuración.
-
-Seleccionar el perfil “app” y ejecutar en un emulador Android.
+1.Descargar el repositorio desde GitHub.
+2.Abrir el proyecto en Android Studio.
+3.Sincronizar Gradle y esperar a que finalice la configuración.
+4.Seleccionar el perfil “app” y ejecutar en un emulador Android.
 
 <u>3. Arquitectura y flujo</u>
 
