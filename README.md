@@ -1,12 +1,12 @@
 CinePlusApp.
 <u>1. Caso elegido y alcance</u>
 
-El proyecto elegido corresponde a CinePlus, una aplicación tipo streaming enfocada en la visualización y gestión de contenido audiovisual.
-En esta proyecto se trabajó principalmente en el diseño/UI, las validaciones de formularios, la navegación entre pantallas, la gestión del estado, la persistencia local y el uso de recursos nativos del dispositivo.
+  El proyecto elegido corresponde a CinePlus, una aplicación tipo streaming enfocada en la visualización y gestión de contenido audiovisual.
+  En esta proyecto se trabajó principalmente en el diseño/UI, las validaciones de formularios, la navegación entre pantallas, la gestión del estado, la persistencia local y el uso de recursos nativos del dispositivo.
 
 <u>2. Requisitos y ejecución</u>
 
-Para el desarrollo se utilizaron las siguientes tecnologías y librerías:
+**Para el desarrollo se utilizaron las siguientes tecnologías y librerías:**
 
 -Kotlin como lenguaje principal.
 
@@ -18,44 +18,47 @@ Para el desarrollo se utilizaron las siguientes tecnologías y librerías:
 
 -Navigation Component para la navegación entre pantallas.
 
-Pasos para ejecutar el proyecto:
+**Pasos para ejecutar el proyecto:**
 
-1.**Descargar el repositorio desde GitHub.**
+1.Descargar el repositorio desde GitHub.
+
 2.Abrir el proyecto en Android Studio.
+
 3.Sincronizar Gradle y esperar a que finalice la configuración.
+
 4.Seleccionar el perfil “app” y ejecutar en un emulador Android.
 
 <u>3. Arquitectura y flujo</u>
 
-La estructura del proyecto se organizó en las siguientes carpetas principales:
+**Carpetas principales de la estructura del proyecto:**
 
-ui/screens: contiene las pantallas principales (Login, Registro, Perfil e Inicio).
+- ui/screens: contiene las pantallas principales (Login, Registro, Perfil e Inicio).
 
-viewmodel: incluye la lógica de negocio, validaciones y manejo del estado.
+- viewmodel: incluye la lógica de negocio, validaciones y manejo del estado.
 
-navigation: define las rutas y el flujo entre pantallas.
+- navigation: define las rutas y el flujo entre pantallas.
 
-theme: agrupa los colores y tipografías personalizadas.
+- theme: agrupa los colores y tipografías personalizadas.
 
-assets: almacena datos locales del usuario.
+- assets: almacena datos locales del usuario.
 
-Gestión de estado:
+**Gestión de estado:**
 Se implementó una estrategia local basada en ViewModel, con un flujo de datos unidireccional:
 usuario → acción → estado → UI.
 
-Navegación:
-Se utilizó un stack simple mediante Navigation Component, con control del backstack para asegurar el retorno correcto a la pantalla de inicio de sesión.
+**Navegación:**
+Se usó un stack simple mediante Navigation Component, con control del backstack para asegurar el retorno correcto a la pantalla de inicio de sesión.
 
 <u>4. Funcionalidades principales</u>
 
-Formulario validado para el inicio de sesión (usuario demo).
+- Formulario validado para el inicio de sesión (usuario demo).
 
-Navegación fluida entre pantallas, con control de sesión.
+- Navegación fluida entre pantallas, con control de sesión.
 
-Manejo de estado visual (carga, éxito y error).
+- Manejo de estado visual (carga, éxito y error).
 
-Persistencia local del usuario, incluso sin conexión a internet.
+- Persistencia local del usuario, incluso sin conexión a internet.
 
-Almacenamiento de la imagen de perfil como recurso local.
+- Almacenamiento de la imagen de perfil como recurso local.
 
-Uso de recursos nativos del dispositivo, como cámara y galería, incluyendo permisos y mecanismos de respaldo.
+- Uso de recursos nativos del dispositivo, como cámara y galería, incluyendo permisos y mecanismos de respaldo.
