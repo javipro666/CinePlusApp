@@ -1,4 +1,4 @@
-CinePlusApp
+CinePlusApp.
 1. Caso elegido y alcance
 
 El proyecto elegido corresponde a CinePlus, una aplicación tipo streaming enfocada en la visualización y gestión de contenido audiovisual.
