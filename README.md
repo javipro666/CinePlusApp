@@ -1,41 +1,64 @@
-# CinePlusApp
+CinePlusApp
+1. Caso elegido y alcance
 
-**1. Caso elegido y alcance**
-**Caso:** CinePlus  
-**Alcance EP3:** Diseño/UI, validaciones, navegación, estado, persistencia y recursos nativos.
+El proyecto elegido corresponde a CinePlus, una aplicación tipo streaming enfocada en la visualización y gestión de contenido audiovisual.
+En este entregable (EP3) se trabajó principalmente en el diseño/UI, las validaciones de formularios, la navegación entre pantallas, la gestión del estado, la persistencia local y el uso de recursos nativos del dispositivo.
 
-**2. Requisitos y ejecución**
-**Se usó:** Kotlin, Android Studio, Jetpack Compose, Material 3, ViewModel, Navigation Component.
+2. Requisitos y ejecución
 
-**Instrucciones:**
-1. Descarga el repositorio desde GitHub.  
-2. Abre el proyecto en Android Studio.  
-3. Sincroniza Gradle y espera que la configuración finalice.  
+Para el desarrollo se utilizaron las siguientes tecnologías y librerías:
 
-**Para la ejecución:**  
-Selecciona el perfil "app" y ejecuta en un emulador Android.
+Kotlin como lenguaje principal.
 
-**3. Arquitectura y flujo**
-**Estructura de carpetas principales:**  
-• ui/screens → pantallas principales (Login, Perfil, Registro, Inicio)  
-• viewmodel → lógica del login y gestión del estado  
-• navigation → rutas y flujo entre pantallas  
-• theme → colores y tipografía personalizada  
-• assets → datos locales de usuario  
+Android Studio como entorno de desarrollo.
 
-**Gestión de estado:**  
-• Estrategia local con ViewModel.  
-• Flujo de datos unidireccional: usuario → acción → estado → UI.  
+Jetpack Compose y Material 3 para la interfaz de usuario.
 
-**Navegación:**  
-• Stack simple entre pantallas usando Navigation Component.  
-• Control del backstack para retorno correcto a inicio de sesión.
+ViewModel para el manejo de estado.
 
-## 4. Funcionalidades
-• Formulario validado para inicio de sesión (usuario demo).  
-• Navegación entre pantallas con control de sesión.  
-• Gestión de estado visual (carga, éxito, error).  
-• Persistencia local del usuario (sin conexión a servidor).  
-• Almacenamiento de imagen de perfil en recurso local.  
-• Uso de recursos nativos: cámara y galería, con permisos y fallback.
+Navigation Component para la navegación entre pantallas.
 
+Pasos para ejecutar el proyecto:
+
+Descargar el repositorio desde GitHub.
+
+Abrir el proyecto en Android Studio.
+
+Sincronizar Gradle y esperar a que finalice la configuración.
+
+Seleccionar el perfil “app” y ejecutar en un emulador Android.
+
+3. Arquitectura y flujo
+
+La estructura del proyecto se organizó en las siguientes carpetas principales:
+
+ui/screens: contiene las pantallas principales (Login, Registro, Perfil e Inicio).
+
+viewmodel: incluye la lógica de negocio, validaciones y manejo del estado.
+
+navigation: define las rutas y el flujo entre pantallas.
+
+theme: agrupa los colores y tipografías personalizadas.
+
+assets: almacena datos locales del usuario.
+
+Gestión de estado:
+Se implementó una estrategia local basada en ViewModel, con un flujo de datos unidireccional:
+usuario → acción → estado → UI.
+
+Navegación:
+Se utilizó un stack simple mediante Navigation Component, con control del backstack para asegurar el retorno correcto a la pantalla de inicio de sesión.
+
+4. Funcionalidades principales
+
+Formulario validado para el inicio de sesión (usuario demo).
+
+Navegación fluida entre pantallas, con control de sesión.
+
+Manejo de estado visual (carga, éxito y error).
+
+Persistencia local del usuario, incluso sin conexión a internet.
+
+Almacenamiento de la imagen de perfil como recurso local.
+
+Uso de recursos nativos del dispositivo, como cámara y galería, incluyendo permisos y mecanismos de respaldo.
